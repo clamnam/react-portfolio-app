@@ -17,11 +17,12 @@ import Footer from './components/Footer';
 const App = () => {
   return (
 
-    <div className='container-fluid mx-auto'>
+    <div className='container-fluid mx-auto bg-stone-950'>
           
     <Router>
-      <div className='container-'>
+      <div className=''>
       <Navbar/>
+      <div className='min-h-screen'>
         <Routes>
           <Route path="/" element={<Home/>} />
           <Route path="/about" element={<About/>} />
@@ -34,6 +35,7 @@ const App = () => {
 
           <Route path='*' element={<PageNotFound/>} />
       </Routes>
+      </div>
       <Footer/>
       </div>
     </Router>

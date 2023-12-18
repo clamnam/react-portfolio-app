@@ -10,19 +10,8 @@ const Footer = () => {
             <Link to={'/projects'} className="link link-hover">Projects</Link> 
             <Link to={'/contact'} className="link link-hover">Contact</Link> 
         </nav> 
-        {/* <nav>
-            <header className="footer-title">Company</header> 
-            <a className="link link-hover">About us</a>
-            <a className="link link-hover">Contact</a>
-            <a className="link link-hover">Jobs</a>
-            <a className="link link-hover">Press kit</a>
-        </nav> 
-        <nav>
-            <header className="footer-title">Legal</header> 
-            <a className="link link-hover">Terms of use</a>
-            <a className="link link-hover">Privacy policy</a>
-            <a className="link link-hover">Cookie policy</a>
-        </nav> */}
+
+
         </footer>
     );
 }
