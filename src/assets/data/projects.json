@@ -1,59 +1,58 @@
 [
-    {
-        "slug": "todo-app",
-        "title": "Todo App",
-        "description": "This is a Todo App I made using React. I found this project interesting, I learned bout localStorage",
-        "images": [
-            {
-                "caption": "Screenshot of the code",
-                "path": "https://picsum.photos/id/0/500/500"
-            },
-            {
-                "caption": "Screenshot of the code",
-                "path": "https://picsum.photos/id/1/500/500"
-            }
-        ],
-        "date": "2023",
-        "tags": ["JavaScript", "React", "HTML", "Front-End"],
-        "website": "http://google.com",
-        "github": "http://github.com",
-        "demo": true
-    },
-    
-        {
-            "slug": "Laravel-Bookstore",
-            "title": "Laravel Bookstore",
-            "description": "This is a Bookstore Site I made using Laravel. I found this project interesting, Laravel and the mvc architecture",
-            "images": [
-                {
-                    "caption": "Screenshot of the code",
-                    "path": "https://picsum.photos/id/0/500/500"
-                },
-                {
-                    "caption": "Screenshot of the code",
-                    "path": "https://picsum.photos/id/1/500/500"
-                }
-            ],
-            "date": "2023",
-            "tags": ["Laravel", "JS", "HTML", "Front-End","backend"],
-            "website": "http://google.com",
-            "github": "http://github.com",
-            "demo": true
-        },
-    {
-        "slug": "giphy-app",
-        "title": "Giphy App",
-        "description": "I found this project very interesting. I learned about APIs.",
-        "images": [
-            {
-                "caption": "Screenshot of the code",
-                "path": "https://picsum.photos/500/500"
-            }
-        ],
-        "date": "2023",
-        "tags": ["JavaScript", "React", "HTML", "Front-End", "Rest Client", "API"],
-        "github": "http://github.com",
-        "demo": true
+	{
+		"slug": "todo-app",
+		"title": "Todo App",
+		"description": "This is a Todo App I made using React. I found this project interesting, I learned bout localStorage",
+		"images": [
+			{
+				"caption": "Screenshot of the code",
+				"path": "https://picsum.photos/id/0/800/800"
+			},
+			{
+				"caption": "Screenshot of the code",
+				"path": "https://picsum.photos/id/1/800/800"
+			}
+		],
+		"date": "2023",
+		"tags": ["JavaScript", "React", "HTML", "Front-End"],
+		"website": "http://google.com",
+		"github": "https://github.com/clamnam/react-todoList",
+		"demo": true
+	},
 
-    }
+	{
+		"slug": "Laravel-Art",
+		"title": "Laravel Art Project",
+		"description": "This is a Art Site I made using Laravel. I found this project interesting, Laravel and the mvc architecture",
+		"images": [
+			{
+				"caption": "Screenshot of the code",
+				"path": "https://picsum.photos/id/0/800/800"
+			},
+			{
+				"caption": "Screenshot of the code",
+				"path": "https://picsum.photos/id/1/800/800"
+			}
+		],
+		"date": "2023",
+		"tags": ["Laravel", "JS", "HTML", "Front-End", "backend"],
+		"website": "http://google.com",
+		"github": "https://github.com/clamnam/Art-Laravel-Project",
+		"demo": true
+	},
+	{
+		"slug": "giphy-app",
+		"title": "Giphy App",
+		"description": "I found this project very interesting. I learned about APIs.",
+		"images": [
+			{
+				"caption": "Screenshot of the code",
+				"path": "https://picsum.photos/800/800"
+			}
+		],
+		"date": "2023",
+		"tags": ["JavaScript", "React", "HTML", "Front-End", "Rest Client", "API"],
+		"github": "https://github.com/clamnam/giphy-app",
+		"demo": true
+	}
 ]

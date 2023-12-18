@@ -20,41 +20,59 @@ const Show = () => {
   if (!project) return <h1>Project doesn't exist</h1>;
 
   return (
-    <>
-      <div className="container">
-        <div className="text-6xl flex justify-center font-light py-16 " >
+    <div className="container mx-auto">
+      
+                  <div className="text-6xl flex justify-center font-light py-16 " >
           {project.title}
         </div>
-      </div>
-      <div className="container">
-      <img src={project.images[0].path} alt="visual representation of the course"/>
 
-        <p>
-          <b>Title:</b> {project.title}
-        </p>
-        <p>
-          <b>Description:</b> {project.description}
-        </p>
-        <p>
-          <b>Date:</b> {project.date}
-        </p>
-        <p>
-          <b>Tags:</b> {tags}
-        </p>
-        <p>
-          <b>Website:</b> <a href={project.website}>website</a>
-        </p>
-        <p>
-          <b>GitHub:</b> <a href={project.github}>github</a>
-        </p>
 
-        {project.demo ? (
-          <Link to={`/projects/${project.slug}/demo`}>Demo</Link>
-        ) : (
-          <p>Demo goes here</p>
-        )}
+      <div className="grid md:grid-cols-2 gap-8 container">
+      <div>
+          <img
+            src={project.images[0].path}
+            alt="visual representation of the course"
+            className="w-full"
+          />
+        </div>
+        <div>
+          <div>
+            <p className="text-xl mb-4 ">
+              {project.description}
+            </p>
+            <div className=" my-2">   
+                      {tags}
+</div>
+            <p>
+              <b>Date:</b> {project.date}
+            </p>
+            
+            
+            
+
+          </div>
+        </div>
+
       </div>
-    </>
+      <br/>
+
+      <div className="container flex justify-center gap-2">  
+
+      {/* <p>
+              <a className="font-semibold hover:underline" href={project.website}>website</a>
+            </p> */}
+
+
+            <p>
+              <a className="font-semibold hover:underline" href={project.github}>Github</a>
+            </p>
+            {project.demo ? (
+              <Link className='font-semibold hover:underline' to={`/projects/${project.slug}/demo`}>Demo</Link>
+            ) : (
+              <p>Demo goes here</p>
+            )}</div>
+
+    </div>
   );
 };
 

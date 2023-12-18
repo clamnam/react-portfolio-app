@@ -17,7 +17,7 @@ const Hero = () => {
 						/>
 					</div>
 
-					<div className="col-span-2 text-white text-4xl">
+					<div className="col-span-2 text-white text-3xl">
 						My name is Jack I am a student and novice software developer. <br/>
 						I have a wealth of experience in many different languages and Softwares, Python and JavaScript being my particular favorites.<br/>
 						A veteran of the service industry, I have tried and tested interpersonal skills and a strong work ethic. <br/>
