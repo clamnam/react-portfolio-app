@@ -8,12 +8,17 @@ const Index = () => {
     const [projects, setProjects] = useState(projectsJSON);
 
     const projectList = projects.map((project, i) => {
-        return <ProjectCard key={i} project={project} />
+        return <ProjectCard key={i} project={project} cardKey={i} />
     });
 
     return (
-        <div className='grid grid-cols-2 gap-2 justify-items-center'>
+        <div className='  justify-items-center'>
+            			<div className="container ">
+				<div className="text-6xl flex justify-center font-light py-16">My  Projects</div>
+			</div>
+            <div className=''>
             {projectList}
+            </div>
         </div>
     );
 };

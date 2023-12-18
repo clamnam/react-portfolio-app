@@ -12,16 +12,18 @@ import Demo from './pages/projects/Demo';
 
 // import components
 import Navbar from './components/Navbar';
+import Sidebar from './components/Sidebar';
+
 import Footer from './components/Footer';
 
 const App = () => {
   return (
 
     <div className='container-fluid mx-auto bg-stone-950'>
-          
     <Router>
       <div className=''>
       <Navbar/>
+
       <div className='min-h-screen'>
         <Routes>
           <Route path="/" element={<Home/>} />

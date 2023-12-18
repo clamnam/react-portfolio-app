@@ -6,11 +6,11 @@
         "images": [
             {
                 "caption": "Screenshot of the code",
-                "path": "https://picsum.photos/id/0/200/300"
+                "path": "https://picsum.photos/id/0/500/500"
             },
             {
                 "caption": "Screenshot of the code",
-                "path": "https://picsum.photos/id/1/200/300"
+                "path": "https://picsum.photos/id/1/500/500"
             }
         ],
         "date": "2023",
@@ -27,11 +27,11 @@
             "images": [
                 {
                     "caption": "Screenshot of the code",
-                    "path": "https://picsum.photos/id/0/200/300"
+                    "path": "https://picsum.photos/id/0/500/500"
                 },
                 {
                     "caption": "Screenshot of the code",
-                    "path": "https://picsum.photos/id/1/200/300"
+                    "path": "https://picsum.photos/id/1/500/500"
                 }
             ],
             "date": "2023",
@@ -47,7 +47,7 @@
         "images": [
             {
                 "caption": "Screenshot of the code",
-                "path": "https://picsum.photos/200/300"
+                "path": "https://picsum.photos/500/500"
             }
         ],
         "date": "2023",

@@ -1,32 +1,76 @@
 import { Link } from 'react-router-dom';
 
-const ProjectCard = ({project}) => {
-
+const ProjectCard = (props) => {
+const project = props.project;
   const tags = project.tags.map((tag, i) => {
-    return <div key={i} className="badge  text-black bg-green-500">{tag}</div>;
+    return <div key={i} className="badge outline-none m-1 text-black bg-white">{tag}</div>;
   });
+let card;
+if(props.cardKey%2 ===0){  card =  (
+    <div className=" ">
 
-  return (
-    <div className="card w-96 bg-zinc-800 m-5  shadow-xl">
-    <figure><img src={project.images[0].path} alt={project.images[0].caption} /></figure>
-    <div className="card-body">
-      <h2 className="card-title">
-        {project.title}
+
+
+    <div className={`container-fluid ${props.cardKey%2 ===0 ? 'bg-orange-500' : 'bg-stone-500'}  py-4`}>
+				<div className="grid grid-cols-3 gap-4 container">
+<div className="text-white m-3 col-span-1 font-medium text-2xl flex content-center">
+  <img src={project.images[0].path} alt={project.images[0].caption} className="mx-auto" />
+					</div>
+
+					<div className="col-span-2 text-white text-4xl">
+          <h2 className="text-3xl hover:underline">
+          <Link className='justify-end p-0 text-5xl ' to={`/projects/${project.slug}`}>{project.title}</Link>
+
       </h2>
-      <p>{project.description}</p>
-      <div className="card-actions ">
-        {tags}
-        <br/>
-    <div className='w-full'>
-        {(project.website) ? (<Link to={project.website} target="_blank" rel="noreferrer" className="btn mr-2 btn-primary">Website</Link>) : ""}
+      {tags}<br/>
 
-        {(project.github) ? (<Link to={project.github} target="_blank" rel="noreferrer" className="btn  btn-primary">GitHub</Link>) : ""}
+            {project.description}
+            <div className='w-full flex inset-x-0 bottom-0 '>
+        {(project.website) ? (<Link to={project.website} target="_blank" rel="noreferrer" className="btn mr-2 ">Website</Link>) : ""}
+
+        {(project.github) ? (<Link to={project.github} target="_blank" rel="noreferrer" className="btn  ">GitHub</Link>) : ""}
         </div>
-        <Link className='justify-end btn ' to={`/projects/${project.slug}`}>Take a look</Link>
-      </div>
-    </div>
+					</div>
+          
+				</div>
+			</div>
   </div>
-  );
+  
+  );}else{ card =  (
+    <div className=" ">
+
+
+
+    <div className={`container-fluid ${props.cardKey%2 ===0 ? 'bg-orange-500' : 'bg-stone-500'}  py-4`}>
+				<div className="grid grid-cols-3 gap-4 container">
+
+
+					<div className="col-span-2 text-white text-4xl">
+          <h2 className="text-3xl hover:underline">
+          <Link className='justify-end p-0 text-5xl  ' to={`/projects/${project.slug}`} ><span className=''>&gt;</span> {project.title}</Link>
+
+      </h2>
+      {tags}<br/>
+
+            {project.description}
+            <div className='w-full flex inset-x-0 bottom-0 '>
+        {(project.website) ? (<Link to={project.website} target="_blank" rel="noreferrer" className="btn mr-2 ">Website</Link>) : ""}
+
+        {(project.github) ? (<Link to={project.github} target="_blank" rel="noreferrer" className="btn  ">GitHub</Link>) : ""}
+        </div>
+					</div>
+          <div className="text-white m-3  col-span-1 font-medium text-2xl flex content-center">
+  <img  src={project.images[0].path} alt={project.images[0].caption} className="mx-auto" />
+					</div>
+				</div>
+			</div>
+  </div>
+  
+ ) }
+
+ return(
+  <div>{card}</div>
+ )
 };
 
 export default ProjectCard;
