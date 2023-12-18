@@ -12,13 +12,10 @@ const ProjectCard = (props) => {
 	let card;
 	if (props.cardKey % 2 === 0) {
 		card = (
-			<div className=" ">
 				<div
-					className={`container-fluid ${
-						props.cardKey % 2 !== 0 ? "bg-neutral" : "bg-neutral-500"
-					}  py-4`}
+					className={`container-fluid  bg-stone-600 py-4`}
 				>
-					<div className="grid grid-cols-3 gap-4 container">
+					<div className="lg:grid grid-cols-3 gap-4 container">
 						<div className="text-white m-3 col-span-1 font-medium text-2xl flex content-center">
 							<img
 								src={project.images[0].path}
@@ -46,7 +43,7 @@ const ProjectCard = (props) => {
 										to={project.website}
 										target="_blank"
 										rel="noreferrer"
-										className="btn mr-2 "
+										className="btn mr-2 bg-neutral-900"
 									>
 										Website
 									</Link>
@@ -59,7 +56,7 @@ const ProjectCard = (props) => {
 										to={project.github}
 										target="_blank"
 										rel="noreferrer"
-										className="btn  "
+										className="btn bg-neutral-900 "
 									>
 										GitHub
 									</Link>
@@ -70,17 +67,13 @@ const ProjectCard = (props) => {
 						</div>
 					</div>
 				</div>
-			</div>
 		);
 	} else {
 		card = (
-			<div className=" ">
 				<div
-					className={`container-fluid ${
-						props.cardKey % 2 !== 0 ? "bg-neutral" : "bg-neutral-500"
-					}  py-4`}
+					className={`container-fluid py-4 bg-neutral-900`}
 				>
-					<div className="grid grid-cols-3 gap-4 container">
+					<div className="lg:grid grid-cols-3 gap-4 container">
 						<div className="col-span-2 text-white text-4xl">
 							<h2 className="text-3xl hover:underline underline-offset-8">
 								<Link
@@ -101,7 +94,7 @@ const ProjectCard = (props) => {
 										to={project.website}
 										target="_blank"
 										rel="noreferrer"
-										className="btn mr-2 "
+										className="btn mr-2 bg-neutral"
 									>
 										Website
 									</Link>
@@ -114,7 +107,7 @@ const ProjectCard = (props) => {
 										to={project.github}
 										target="_blank"
 										rel="noreferrer"
-										className="btn  "
+										className="btn  bg-neutral"
 									>
 										GitHub
 									</Link>
@@ -132,7 +125,6 @@ const ProjectCard = (props) => {
 						</div>
 					</div>
 				</div>
-			</div>
 		);
 	}
 

@@ -31,7 +31,7 @@ const Hero = () => {
 						<div className="col-span-2 text-white font-medium text-2xl">
 						<h1 className="text-4xl">My Experience </h1>
 						<br/>
-						<p> - I have used Python to develop applications and solve logical problems. I really enjoy using Python and I think its applicability/versatility of the language has meant I could expland my horizons to a great extent   </p>
+						<p className="my-2"> - I have used Python to develop applications and solve logical problems. I really enjoy using Python and I think its applicability/versatility of the language has meant I could expland my horizons to a great extent   </p>
 						<p> - I have used React to develop multiple single page </p>
 						</div>
 						<div className="text-white col-span-1 font-medium text-2xl">

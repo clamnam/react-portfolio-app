@@ -22,10 +22,10 @@ const Navbar = () => {
     <div className={``}>
           {NavReduce()}
 
-      <div className={`opacity-60  fixed top-0 ${isNavHidden ? 'hide-nav' : 'show-nav'}`}>
+      <div className={`fixed top-0 ${isNavHidden ? 'hide-nav' : 'show-nav'}`}>
         <div className="dropdown">
           <ul  className="flex  text-white r w-52">
-            <li className="m-2 hover:underline underline-offset-8">
+            <li className="m-2 hover:underline underline-offset-8 ">
               <Link to="/">Home</Link>
             </li>
             <li className="m-2 hover:underline underline-offset-8">
@@ -34,7 +34,7 @@ const Navbar = () => {
             <li className="m-2 hover:underline underline-offset-8">
               <Link to="/projects">Projects</Link>
             </li>
-            <li className="m-2 hover:underline underline-offset-8">
+            <li className="m-2 hover:underline underline-offset-8 hover:uppercase">
               <Link to="/contact">Contact</Link>
             </li>
           </ul>

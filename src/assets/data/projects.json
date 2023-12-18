@@ -1,7 +1,27 @@
 [
 	{
+		"slug": "Python-Pace-Converter",
+		"title": "Python Pace Converter",
+		"description": "This is a Todo App I made using React. I found this project interesting, I learned bout localStorage",
+		"images": [
+			{
+				"caption": "Screenshot of the code",
+				"path": "https://picsum.photos/id/0/800/800"
+			},
+			{
+				"caption": "Screenshot of the code",
+				"path": "https://picsum.photos/id/1/800/800"
+			}
+		],
+		"date": "2023",
+		"tags": ["Python", "Tkinter"],
+		"website": null,
+		"github": "https://github.com/clamnam/Pace-Converter",
+		"demo": false
+	},
+	{
 		"slug": "todo-app",
-		"title": "Todo App",
+		"title": "Todo App",
 		"description": "This is a Todo App I made using React. I found this project interesting, I learned bout localStorage",
 		"images": [
 			{
@@ -22,7 +42,7 @@
 
 	{
 		"slug": "Laravel-Art",
-		"title": "Laravel Art Project",
+		"title": "Laravel Art Project",
 		"description": "This is a Art Site I made using Laravel. I found this project interesting, Laravel and the mvc architecture",
 		"images": [
 			{
@@ -42,7 +62,37 @@
 	},
 	{
 		"slug": "giphy-app",
-		"title": "Giphy App",
+		"title": "Giphy App",
+		"description": "I found this project very interesting. I learned about APIs.",
+		"images": [
+			{
+				"caption": "Screenshot of the code",
+				"path": "https://picsum.photos/800/800"
+			}
+		],
+		"date": "2023",
+		"tags": ["JavaScript", "React", "HTML", "Front-End", "Rest Client", "API"],
+		"github": "https://github.com/clamnam/giphy-app",
+		"demo": true
+	},
+	{
+		"slug": "countries-app",
+		"title": "Countries App",
+		"description": "I found this project very interesting. I learned about APIs.",
+		"images": [
+			{
+				"caption": "Screenshot of the code",
+				"path": "https://picsum.photos/800/800"
+			}
+		],
+		"date": "2023",
+		"tags": ["JavaScript", "React", "HTML", "Front-End", "Rest Client", "API"],
+		"github": "https://github.com/clamnam/giphy-app",
+		"demo": true
+	},
+	{
+		"slug": "riot-api-project",
+		"title": "riot api project",
 		"description": "I found this project very interesting. I learned about APIs.",
 		"images": [
 			{

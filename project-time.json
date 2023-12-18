@@ -1,0 +1,24 @@
+{
+  "portfolio-example-2": {
+    "msDuration": 15078901,
+    "duration": "4h 11m"
+  },
+  "ca-countries-app": {
+    "msDuration": 204410,
+    "duration": "3m"
+  },
+  "ca-courses-app": {
+    "msDuration": 9090924,
+    "duration": "2h 31m"
+  },
+  "Sass_2": {
+    "msDuration": 44244,
+    "duration": "0m"
+  },
+  "react-gif": {
+    "msDuration": 164034,
+    "duration": "2m"
+  },
+  "startDate": "2023-11-01T00:00:00.000Z",
+  "endDate": "2023-12-19T00:00:00.000Z"
+}

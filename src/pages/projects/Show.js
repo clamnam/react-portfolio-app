@@ -22,7 +22,7 @@ const Show = () => {
   return (
     <div className="container mx-auto">
       
-                  <div className="text-6xl flex justify-center font-light py-16 " >
+                  <div className="text-6xl flex justify-center font-normal py-16 " >
           {project.title}
         </div>
 

@@ -19,7 +19,7 @@ import Footer from './components/Footer';
 const App = () => {
   return (
 
-    <div className='container-fluid mx-auto bg-stone-950'>
+    <div className='container-fluid mx-auto bg-stone-900'>
     <Router>
       <div className=''>
       <Navbar/>
