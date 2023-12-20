@@ -2,19 +2,18 @@ import React, { useEffect, useRef } from "react";
 import * as math from "mathjs";
 const CanvasComponent = () => {
 	const canvasRef = useRef(null);
-	const canvasSize = 200;
+	const canvasSize = 500;
 	const fontSize = 20;
-	let columns, rows;
+	let columns = math.floor(canvasSize / fontSize);
+	let rows = math.floor(canvasSize / fontSize);
 
 	useEffect(() => {
 		const canvas = canvasRef.current;
 		const context = canvas.getContext("2d");
-		columns = math.floor(canvas.width / fontSize);
-		rows = math.floor(canvas.height / fontSize);
 
-		const displayRandomAlphanumericGrid = () => {
+		const alphaNumGrid = () => {
 			const chars =
-				"0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
+				"01";
 
 			for (let i = 0; i < columns; i++) {
 				for (let j = 0; j < rows; j++) {
@@ -31,12 +30,11 @@ const CanvasComponent = () => {
 			context.clearRect(0, 0, canvas.width, canvas.height);
 			context.fillStyle = "#222222";
 			context.fillRect(0, 0, canvas.width, canvas.height);
-			displayRandomAlphanumericGrid();
+			alphaNumGrid();
 		};
 
 		const setup = () => {
-			canvas.width = canvasSize;
-			canvas.height = canvasSize;
+
 			context.font = `${fontSize}px Arial`;
 			context.textAlign = "center";
 			context.textBaseline = "middle";
@@ -50,7 +48,7 @@ const CanvasComponent = () => {
 		const intervalId = setInterval(draw, 1000 / 8);
 
 		return () => clearInterval(intervalId);
-	}, []);
+	}, [columns,rows]);
 
 	return <canvas ref={canvasRef} />;
 };

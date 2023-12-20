@@ -13,7 +13,7 @@ const ProjectCard = (props) => {
 	if (props.cardKey % 2 === 0) {
 		card = (
 				<div
-					className={`container-fluid  bg-stone-600 py-4`}
+					className={`container-fluid  bg-neutral py-4`}
 				>
 					<div className="lg:grid grid-cols-3 gap-4 container">
 						<div className="text-white m-3 col-span-1 font-medium text-2xl flex content-center">
