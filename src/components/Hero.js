@@ -64,7 +64,9 @@ const Hero = () => {
 
 			<div className="container-fluid bg-orange-600 py-4">
                 <div className="grid grid-cols-3 gap-4 container">
-<CanvasComponent/>
+                    <div className="col-span-1">
+                <CanvasComponent/>
+                </div>
                     <div className="col-span-2 text-white font-medium text-2xl">
                         <h1 className="text-4xl">Languages + Softwares I have worked in</h1>
                         <br />

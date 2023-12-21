@@ -34,7 +34,8 @@ const CanvasComponent = () => {
 		};
 
 		const setup = () => {
-
+			canvas.width = canvasSize;
+			canvas.height = canvasSize;
 			context.font = `${fontSize}px Arial`;
 			context.textAlign = "center";
 			context.textBaseline = "middle";

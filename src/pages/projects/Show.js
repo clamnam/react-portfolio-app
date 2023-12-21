@@ -58,19 +58,18 @@ const Show = () => {
 
       <div className="container flex justify-center gap-2">  
 
-      {/* <p>
-              <a className="font-semibold hover:underline" href={project.website}>website</a>
-            </p> */}
+
 
 
             <p>
               <a className="font-semibold hover:underline" href={project.github}>Github</a>
             </p>
-            {project.demo ? (
+            {project.website &&(
+              <a className='font-semibold hover:underline' href={`${project.website}`}>Website</a>
+            )}
+            {project.demo && (
               <Link className='font-semibold hover:underline' to={`/projects/${project.slug}/demo`}>Demo</Link>
-            ) : (
-              <p>Demo goes here</p>
-            )}</div>
+            ) }</div>
 
     </div>
   );

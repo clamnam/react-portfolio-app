@@ -4,7 +4,7 @@ const ProjectCard = (props) => {
 	const project = props.project;
 	const tags = project.tags.map((tag, i) => {
 		return (
-			<div key={i} className="badge outline-none m-1 text-black bg-white">
+			<div key={i} className="badge m0.5 text-black bg-white">
 				{tag}
 			</div>
 		);
@@ -36,7 +36,7 @@ const ProjectCard = (props) => {
 							{tags}
 							<br />
 
-							<p className="text-xl">{project.description}</p>
+							<p className="text-xl line-clamp-5">{project.description}</p>
 							<div className="w-full flex inset-x-0 bottom-0 ">
 								{project.website ? (
 									<Link
@@ -87,7 +87,7 @@ const ProjectCard = (props) => {
 							{tags}
 							<br />
 
-							<p className="text-xl">{project.description}</p>
+							<p className="text-xl line-clamp-5">{project.description}</p>
 							<div className="w-full flex inset-x-0 bottom-0 ">
 								{project.website ? (
 									<Link

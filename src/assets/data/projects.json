@@ -1,8 +1,8 @@
 [
 	{
 		"slug": "Python-Pace-Converter",
-		"title": "Python Pace Converter",
-		"description": "This is a Todo App I made using React. I found this project interesting, I learned bout localStorage",
+		"title": "Python Pace Converter",
+		"description": "I independently developed a standalone Python application that calculates alternative metrics for runners based on entered information about distance and time taken. I created a front-end GUI using the Tkinter binding for easy data entry and readout. The application is lightweight, user-friendly, and effectively handles/responds to errors",
 		"images": [
 			{
 				"caption": "Screenshot of the code",
@@ -14,15 +14,65 @@
 			}
 		],
 		"date": "2023",
-		"tags": ["Python", "Tkinter"],
+		"tags": ["Python", "Tkinter", "GUI", "Application"],
 		"website": null,
 		"github": "https://github.com/clamnam/Pace-Converter",
 		"demo": false
 	},
 	{
+		"slug": "courses-app",
+		"title": "Courses App",
+		"description": "I have successfully developed multiple React single-page applications (SPAs) that seamlessly integrate with APIs, providing robust functionality for sorting, searching, and full CRUD operations. Utilizing React Hooks for efficient state management in functional components, I've ensured both standalone and joined data points are handled with precision. For dynamic and responsive designs across various breakpoints, I've employed CSS in conjunction with the Tailwind and Bootstrap frameworks. In addition, I've implemented advanced routing techniques using React Router, with a specific focus on nested routes and the implementation of route guards for authentication. To further specify, I recently worked on a courses application where Bootstrap was excluded. Despite the absence of Bootstrap, I maintained a high standard of design and responsiveness through the strategic use of CSS and the Tailwind framework.",
+		"images": [
+			{
+				"caption": "Screenshot of the code",
+				"path": "https://picsum.photos/800/800"
+			}
+		],
+		"date": "2023",
+		"tags": [
+			"JavaScript",
+			"React",
+			"HTML",
+			"Front-End",
+			"Rest Client",
+			"API",
+			"CSS",
+			"Tailwind"
+		],
+		"website": "http://react-clamnam-courses-app.s3-website-eu-west-1.amazonaws.com/",
+		"github": "https://github.com/clamnam/giphy-app",
+		"demo": false
+	},
+	{
+		"slug": "countries-app",
+		"title": "Countries App",
+		"description": "I have successfully developed multiple React single-page applications (SPAs) that seamlessly integrate with APIs, providing robust functionality for sorting, searching, and full CRUD operations. Utilizing React Hooks for efficient state management in functional components, I've ensured both standalone and joined data points are handled with precision. For dynamic and responsive designs across various breakpoints, I've employed CSS in conjunction with the Tailwind and Bootstrap frameworks. In addition, I've implemented advanced routing techniques using React Router, with a specific focus on nested routes and the implementation of route guards for authentication. To further specify, I recently worked on a courses application where Bootstrap was excluded. Despite the absence of Bootstrap, I maintained a high standard of design and responsiveness through the strategic use of CSS and the Tailwind framework.",
+		"images": [
+			{
+				"caption": "Screenshot of the code",
+				"path": "https://picsum.photos/800/800"
+			}
+		],
+		"date": "2023",
+		"tags": [
+			"JavaScript",
+			"React",
+			"HTML",
+			"Front-End",
+			"Rest Client",
+			"API",
+			"CSS",
+			"Tailwind"
+		],
+		"website": "http://react-clamnam-countries-app.s3-website-eu-west-1.amazonaws.com",
+		"github": "https://github.com/clamnam/giphy-app",
+		"demo": false
+	},
+	{
 		"slug": "todo-app",
-		"title": "Todo App",
-		"description": "This is a Todo App I made using React. I found this project interesting, I learned bout localStorage",
+		"title": "Todo App",
+		"description": "I have successfully developed a React ToDo application that offers a seamless user experience. The application includes features for creating, editing, and deleting tasks, as well as marking tasks as completed. Leveraging React Hooks, I've implemented efficient state management in functional components to ensure a responsive interface. The application integrates with an API to persist task data and provides users with the ability to organize tasks through sorting and searching functionalities. Advanced routing techniques using React Router have been employed to enhance the navigation experience within the ToDo application. Additionally, I've focused on creating a clean and intuitive design, incorporating CSS for styling while avoiding the use of Bootstrap for a customized appearance.",
 		"images": [
 			{
 				"caption": "Screenshot of the code",
@@ -34,16 +84,23 @@
 			}
 		],
 		"date": "2023",
-		"tags": ["JavaScript", "React", "HTML", "Front-End"],
-		"website": "http://google.com",
-		"github": "https://github.com/clamnam/react-todoList",
-		"demo": true
+		"tags": [
+			"JavaScript",
+			"React",
+			"HTML",
+			"Front-End",
+			"CSS",
+			"API Integration",
+			"React Hooks",
+			"React Router"
+		],
+		"website": "http://react-clamnam-todo-app.s3-website-eu-west-1.amazonaws.com/",
+		"github": "https://github.com/clamnam/react-todoList"
 	},
-
 	{
 		"slug": "Laravel-Art",
-		"title": "Laravel Art Project",
-		"description": "This is a Art Site I made using Laravel. I found this project interesting, Laravel and the mvc architecture",
+		"title": "Laravel Art Project",
+		"description": "I have successfully developed a Laravel project dedicated to art pieces, implementing a comprehensive CRUD (Create, Read, Update, Delete) functionality. Adhering to the Model-View-Controller (MVC) architecture, the application is structured for efficient code organization and maintenance. The backend, powered by PHP, seamlessly interacts with a MySQL database managed through phpMyAdmin. The incorporation of regular expressions (regex) ensures data validation and enhances the integrity of the art piece information.\n\nOn the frontend, JavaScript is employed to enhance user interactions and provide dynamic features. The combination of Laravel's routing system and the Apache server ensures smooth navigation and optimal performance. The application allows users to create, view, update, and delete art pieces, providing a user-friendly interface for managing art-related data.\n\nThe project demonstrates a cohesive integration of backend and frontend technologies, offering a robust solution for art piece management within the context of a Laravel framework.",
 		"images": [
 			{
 				"caption": "Screenshot of the code",
@@ -55,15 +112,25 @@
 			}
 		],
 		"date": "2023",
-		"tags": ["Laravel", "JS", "HTML", "Front-End", "backend"],
+		"tags": [
+			"Laravel",
+			"PHP",
+			"JavaScript",
+			"HTML",
+			"Front-End",
+			"MVC",
+			"Regex",
+			"phpMyAdmin",
+			"Apache"
+		],
 		"website": "http://google.com",
 		"github": "https://github.com/clamnam/Art-Laravel-Project",
 		"demo": true
 	},
 	{
 		"slug": "giphy-app",
-		"title": "Giphy App",
-		"description": "I found this project very interesting. I learned about APIs.",
+		"title": "Giphy App",
+		"description": "I have successfully developed a React Giphy application that leverages the Giphy API to fetch and display GIFs based on user preferences. The application allows users to perform searches and limits the results to 5, 10, or 15 GIFs, providing a customizable viewing experience. Additionally, users can request a random GIF and explore trending GIFs to stay up-to-date with popular content. Through the integration of React Hooks, I've implemented efficient state management in functional components, ensuring a smooth and responsive interface. The use of React Router facilitates seamless navigation within the application. The design is enhanced with CSS for styling, tailored to create an engaging and visually appealing experience for users.",
 		"images": [
 			{
 				"caption": "Screenshot of the code",
@@ -71,28 +138,22 @@
 			}
 		],
 		"date": "2023",
-		"tags": ["JavaScript", "React", "HTML", "Front-End", "Rest Client", "API"],
-		"github": "https://github.com/clamnam/giphy-app",
-		"demo": true
-	},
-	{
-		"slug": "countries-app",
-		"title": "Countries App",
-		"description": "I found this project very interesting. I learned about APIs.",
-		"images": [
-			{
-				"caption": "Screenshot of the code",
-				"path": "https://picsum.photos/800/800"
-			}
+		"tags": [
+			"JavaScript",
+			"React",
+			"HTML",
+			"Front-End",
+			"API Integration",
+			"React Hooks",
+			"React Router",
+			"CSS"
 		],
-		"date": "2023",
-		"tags": ["JavaScript", "React", "HTML", "Front-End", "Rest Client", "API"],
 		"github": "https://github.com/clamnam/giphy-app",
 		"demo": true
 	},
 	{
 		"slug": "riot-api-project",
-		"title": "riot api project",
+		"title": "Riot API Project",
 		"description": "I found this project very interesting. I learned about APIs.",
 		"images": [
 			{
@@ -101,7 +162,7 @@
 			}
 		],
 		"date": "2023",
-		"tags": ["JavaScript", "React", "HTML", "Front-End", "Rest Client", "API"],
+		"tags": ["Python", "JavaScript"],
 		"github": "https://github.com/clamnam/giphy-app",
 		"demo": true
 	}
