@@ -81,8 +81,8 @@ const Hero = () => {
 			</div>
 
 			<div className="container-fluid bg-orange-600 py-4">
-				<div className="grid grid-cols-3 gap-4 container">
-					<div className="col-span-1">
+				<div className="lg:grid lg:grid-cols-3 gap-4 container">
+					<div className="lg:col-span-1 flex justify-center">
                         <a href="https://www.linkedin.com/in/jackmob/">
                         <CanvasComponent />
                         </a>
