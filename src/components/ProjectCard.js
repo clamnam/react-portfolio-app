@@ -122,6 +122,7 @@ const ProjectCard = (props) => {
 								alt={project.images[0].caption}
 								className="mx-auto w-500 h-500"
 							/>
+							
 						</div>
 					</div>
 				</div>

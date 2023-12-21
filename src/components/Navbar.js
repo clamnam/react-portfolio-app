@@ -28,11 +28,12 @@ const Navbar = () => {
             <li className="m-2 hover:underline underline-offset-8 ">
               <Link to="/">Home</Link>
             </li>
-            {/* <li className="m-2 hover:underline underline-offset-8">
-              <Link to="/about">About</Link>
-            </li> */}
+
             <li className="m-2 hover:underline underline-offset-8">
               <Link to="/projects">Projects</Link>
+            </li>
+            <li className="m-2 hover:underline underline-offset-8">
+              <Link to="/contact">Contact</Link>
             </li>
             {/* <li className="m-2 hover:underline underline-offset-8 hover:uppercase">
               <Link to="/contact">Contact</Link>

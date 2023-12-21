@@ -21,11 +21,16 @@ const Contact = () => {
 			<div className="bg-off-white text-light pt-3 img width-auto">
 				<div className="container-fluid">
 					<div className="container">
-						<div className="row pt-5">
+						<div className="flex justify-center">
 							<div>
-								<p className="pt-5 mb-5 text-center text-dark display-1 display-title col-12 ">
-									About Me
-								</p>
+								<p className="text-6xl flex justify-center font-light py-16 ">
+									Contact Details
+										</p>
+										<p className="pb-16 text-xl flex justify-center"> If you wish to contact me, please do so via email.</p>
+
+										<a href="https://www.linkedin.com/in/jackmob/" className="hover:underline unde flex text-xl justify-center">LinkedIn</a>
+										<a href="clamnam@protonmail.com" className="hover:underline unde flex text-xl justify-center">Email</a>
+										<a href="https://github.com/clamnam" className="hover:underline unde flex text-xl justify-center"> Github</a>
 							</div>
 						</div>
 					</div>

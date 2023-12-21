@@ -5,8 +5,8 @@
 		"description": "I independently developed a standalone Python application that calculates alternative metrics for runners based on entered information about distance and time taken. I created a front-end GUI using the Tkinter binding for easy data entry and readout. The application is lightweight, user-friendly, and effectively handles/responds to errors",
 		"images": [
 			{
-				"caption": "Screenshot of the code",
-				"path": "https://picsum.photos/id/0/800/800"
+				"caption": "Python Code",
+				"path": "https://images.unsplash.com/photo-1515879218367-8466d910aaa4?q=80&w=2969&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 			},
 			{
 				"caption": "Screenshot of the code",
@@ -25,8 +25,8 @@
 		"description": "I have successfully developed multiple React single-page applications (SPAs) that seamlessly integrate with APIs, providing robust functionality for sorting, searching, and full CRUD operations. Utilizing React Hooks for efficient state management in functional components, I've ensured both standalone and joined data points are handled with precision. For dynamic and responsive designs across various breakpoints, I've employed CSS in conjunction with the Tailwind and Bootstrap frameworks. In addition, I've implemented advanced routing techniques using React Router, with a specific focus on nested routes and the implementation of route guards for authentication. To further specify, I recently worked on a courses application where Bootstrap was excluded. Despite the absence of Bootstrap, I maintained a high standard of design and responsiveness through the strategic use of CSS and the Tailwind framework.",
 		"images": [
 			{
-				"caption": "Screenshot of the code",
-				"path": "https://picsum.photos/800/800"
+				"caption": "graduation",
+				"path": "https://images.unsplash.com/photo-1590012314607-cda9d9b699ae?q=80&w=2971&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 			}
 		],
 		"date": "2023",
@@ -35,7 +35,6 @@
 			"React",
 			"HTML",
 			"Front-End",
-			"Rest Client",
 			"API",
 			"CSS",
 			"Tailwind"
@@ -50,8 +49,8 @@
 		"description": "I have successfully developed multiple React single-page applications (SPAs) that seamlessly integrate with APIs, providing robust functionality for sorting, searching, and full CRUD operations. Utilizing React Hooks for efficient state management in functional components, I've ensured both standalone and joined data points are handled with precision. For dynamic and responsive designs across various breakpoints, I've employed CSS in conjunction with the Tailwind and Bootstrap frameworks. In addition, I've implemented advanced routing techniques using React Router, with a specific focus on nested routes and the implementation of route guards for authentication. To further specify, I recently worked on a courses application where Bootstrap was excluded. Despite the absence of Bootstrap, I maintained a high standard of design and responsiveness through the strategic use of CSS and the Tailwind framework.",
 		"images": [
 			{
-				"caption": "Screenshot of the code",
-				"path": "https://picsum.photos/800/800"
+				"caption": "flags",
+				"path": "https://images.unsplash.com/photo-1512076249812-fd58fb2c8748?q=80&w=2969&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 			}
 		],
 		"date": "2023",
@@ -60,7 +59,6 @@
 			"React",
 			"HTML",
 			"Front-End",
-			"Rest Client",
 			"API",
 			"CSS",
 			"Tailwind"
@@ -75,12 +73,8 @@
 		"description": "I have successfully developed a React ToDo application that offers a seamless user experience. The application includes features for creating, editing, and deleting tasks, as well as marking tasks as completed. Leveraging React Hooks, I've implemented efficient state management in functional components to ensure a responsive interface. The application integrates with an API to persist task data and provides users with the ability to organize tasks through sorting and searching functionalities. Advanced routing techniques using React Router have been employed to enhance the navigation experience within the ToDo application. Additionally, I've focused on creating a clean and intuitive design, incorporating CSS for styling while avoiding the use of Bootstrap for a customized appearance.",
 		"images": [
 			{
-				"caption": "Screenshot of the code",
-				"path": "https://picsum.photos/id/0/800/800"
-			},
-			{
-				"caption": "Screenshot of the code",
-				"path": "https://picsum.photos/id/1/800/800"
+				"caption": "notebook",
+				"path": "https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?q=80&w=2972&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 			}
 		],
 		"date": "2023",
@@ -91,7 +85,7 @@
 			"Front-End",
 			"CSS",
 			"API Integration",
-			"React Hooks",
+
 			"React Router"
 		],
 		"website": "http://react-clamnam-todo-app.s3-website-eu-west-1.amazonaws.com/",
@@ -103,12 +97,8 @@
 		"description": "I have successfully developed a Laravel project dedicated to art pieces, implementing a comprehensive CRUD (Create, Read, Update, Delete) functionality. Adhering to the Model-View-Controller (MVC) architecture, the application is structured for efficient code organization and maintenance. The backend, powered by PHP, seamlessly interacts with a MySQL database managed through phpMyAdmin. The incorporation of regular expressions (regex) ensures data validation and enhances the integrity of the art piece information.\n\nOn the frontend, JavaScript is employed to enhance user interactions and provide dynamic features. The combination of Laravel's routing system and the Apache server ensures smooth navigation and optimal performance. The application allows users to create, view, update, and delete art pieces, providing a user-friendly interface for managing art-related data.\n\nThe project demonstrates a cohesive integration of backend and frontend technologies, offering a robust solution for art piece management within the context of a Laravel framework.",
 		"images": [
 			{
-				"caption": "Screenshot of the code",
-				"path": "https://picsum.photos/id/0/800/800"
-			},
-			{
-				"caption": "Screenshot of the code",
-				"path": "https://picsum.photos/id/1/800/800"
+				"caption": "Gallery",
+				"path": "https://images.unsplash.com/photo-1582555172866-f73bb12a2ab3?q=80&w=2772&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 			}
 		],
 		"date": "2023",
@@ -134,7 +124,7 @@
 		"images": [
 			{
 				"caption": "Screenshot of the code",
-				"path": "https://picsum.photos/800/800"
+				"path": "https://images.pexels.com/photos/416160/pexels-photo-416160.jpeg"
 			}
 		],
 		"date": "2023",
@@ -144,21 +134,21 @@
 			"HTML",
 			"Front-End",
 			"API Integration",
-			"React Hooks",
-			"React Router",
+
 			"CSS"
 		],
+
 		"github": "https://github.com/clamnam/giphy-app",
 		"website": "http://react-clamnam-giphy-app.s3-website-eu-west-1.amazonaws.com"
 	},
 	{
 		"slug": "riot-api-project",
 		"title": "Riot API Project",
-		"description": "I found this project very interesting. I learned about APIs.",
+		"description": "This is a work in progress to integrate voicechat functionality to team fight tactics, using riots api to reach multiple sequential endpoints. I then created an api of my own to export the data. I now plan to make a discord bot to colate the data and autojoin people to the server if they are in the same game.",
 		"images": [
 			{
-				"caption": "Screenshot of the code",
-				"path": "https://picsum.photos/800/800"
+				"caption": "Colaborative office space",
+				"path": "https://images.unsplash.com/photo-1633545491399-54a16aa6a871?q=80&w=2972&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D0"
 			}
 		],
 		"date": "2023",
