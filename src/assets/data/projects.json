@@ -149,7 +149,7 @@
 			"CSS"
 		],
 		"github": "https://github.com/clamnam/giphy-app",
-		"demo": true
+		"website": "http://react-clamnam-giphy-app.s3-website-eu-west-1.amazonaws.com"
 	},
 	{
 		"slug": "riot-api-project",
@@ -163,7 +163,6 @@
 		],
 		"date": "2023",
 		"tags": ["Python", "JavaScript"],
-		"github": "https://github.com/clamnam/giphy-app",
-		"demo": true
+		"github": "https://github.com/clamnam/giphy-app"
 	}
 ]
