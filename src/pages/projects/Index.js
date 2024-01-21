@@ -23,11 +23,6 @@ const Index = () => {
 
 		fetchData();
 	}, []); 
-
-	const projectList = filteredProjects.map((project, i) => (
-		<ProjectCard key={i} project={project} cardKey={i} />
-	));
-
 	const filterProjects = (filter) => {
 		setSelectedOption(filter);
 
@@ -40,6 +35,12 @@ const Index = () => {
 			setFilteredProjects(filtered);
 		}
 	};
+
+	const projectList = filteredProjects.map((project, i) => (
+<ProjectCard key={i} project={project} cardKey={i} filterProjects={filterProjects} />
+	));
+
+
 
 	const tags = [
 		"All",
@@ -55,27 +56,27 @@ const Index = () => {
 
 	return (
 		<div className="justify-items-center">
-			<div className="container">
-				<div className="text-6xl flex justify-center font-light py-16">
-					My Projects
+			<div className="sm:container">
+				<div className="text-6xl flex  justify-center font-light pt-16 pb-12 sm:pb-4">
+				&lt;/Projects&gt;
 				</div>
-				<div className="relative text-left flex justify-center">
+				<div className="relative text-left  justify-center hidden sm:flex">
 					<button
 						type="button"
 						className="btn-dropdown"
 						onClick={() => filterProjects(selectedOption)}
 					></button>
-					<div className="flex justify-center my-3">
+					<div className="flex justify-center my-3 flex-wrap  sm:nowrap">
 						{tags.map((option) => (
 							<div
 								key={option}
-								className={`badge mx-1 cursor-pointer  p-3 badge-outline ${
+								className={`btn btn-ghost  cursor-pointer hover:btn-primary p-4 badge-outline ${
 									option === selectedOption ? "selected" : ""
 								}`}
 								role="menuitem"
 								onClick={() => filterProjects(option)}
 							>
-								{option}
+								# {option}
 							</div>
 						))}
 					</div>
