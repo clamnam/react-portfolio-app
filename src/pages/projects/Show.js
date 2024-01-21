@@ -10,7 +10,7 @@ const Show = () => {
   const { slug } = useParams();
 
   const tags = project?.tags?.map((tag, i) => (
-    <div key={i} className="badge badge-outline badge-primary">
+    <div key={i} className="btn btn-ghost border-solid hover:border-primary p-2 mr-1  cursor-pointer hover:btn-primary badge-outline ">
       {tag}
     </div>
   ));
@@ -39,24 +39,24 @@ const Show = () => {
   if (!project) return <h1>Project doesn't exist</h1>;
 
   return (
-    <div className="container mx-auto">
+    <div className="container  ">
       <div className="text-6xl flex justify-center font-normal py-16">
         {project.title}
       </div>
 
-      <div className="grid md:grid-cols-2 gap-8 container">
+      <div className="grid  md:grid-cols-2 gap-0 md:gap-8 container">
         <div>
           <img
             src={project.images[0].path}
             alt="visual representation of the course"
             className="w-full"
           />
+          {tags}
         </div>
         <div>
           <div>
-            <p className="text-xl mb-4 ">{project.description}</p>
-            <div className="my-2">{tags}</div>
-            <p>
+            <div className="text-xl  mx-4 xs:mx-0">{project.description}</div>
+            <p className="m-4 xs:m-0">
               <b>Date:</b> {project.date}
             </p>
           </div>
@@ -64,7 +64,7 @@ const Show = () => {
       </div>
       <br />
 
-      <div className="container flex justify-center gap-2">
+      <div className="container flex justify-center gap-2 ">
         <p>
           <a className="font-semibold hover:underline" href={project.github}>
             Github

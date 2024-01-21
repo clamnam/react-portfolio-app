@@ -17,8 +17,8 @@ const ProjectCard = (props) => {
 		card = (
 			<div className={`container-fluid  bg-neutral py-4`}>
 				
-				<div className="xl:grid grid-cols-3 gap-4 container">
-					<div className="text-white  col-span-1 font-medium text-2xl flex content-center">
+				<div className="xl:grid grid-cols-3 gap-4 sm:container">
+					<div className="text-white  col-span-1 font-medium  flex content-center">
 						<img
 							src={project.images[0].path}
 							alt={project.images[0].caption}
@@ -26,10 +26,10 @@ const ProjectCard = (props) => {
 						/>
 					</div>
 
-					<div className="col-span-2 text-white text-4xl">
-						<h2 className="text-3xl hover:underline underline-offset-8">
+					<div className="col-span-2 text-white m-4 sm:m-0">
+						<h2 className=" hover:underline underline-offset-8">
 							<Link
-								className="justify-end p-0 text-5xl "
+								className="justify-end p-0 text-4xl "
 								to={`/projects/${project.slug}`}
 							>
 								{project.title}
@@ -38,7 +38,7 @@ const ProjectCard = (props) => {
 						{tags}
 						<br />
 
-						<p className="text-xl line-clamp-5">{project.description}</p>
+						<p className="text-lg line-clamp-5">{project.description}</p>
 
 						<div className="w-full flex  bottom-0 ">
 							{project.website ? (
@@ -74,11 +74,11 @@ const ProjectCard = (props) => {
 	} else {
 		card = (
 			<div className={`container-fluid py-4 bg-neutral-900`}>
-				<div className="xl:grid grid-cols-3 gap-4 container">
-					<div className="col-span-2 text-white text-4xl">
+				<div className="xl:grid grid-cols-3 gap-4 sm:container">
+					<div className="col-span-2 text-white text-4xl m-4 sm:m-0">
 						<h2 className="text-3xl hover:underline underline-offset-8">
 							<Link
-								className="justify-end p-0 text-5xl  "
+								className="justify-end p-0 text-4xl   "
 								to={`/projects/${project.slug}`}
 							>
 								{" "}
@@ -88,7 +88,7 @@ const ProjectCard = (props) => {
 						{tags}
 						<br />
 
-						<p className="text-xl line-clamp-5">{project.description}</p>
+						<p className="text-lg line-clamp-5">{project.description}</p>
 						<div className="w-full flex xl:justify-end self-end  align-bottom inset-x-0 bottom-0 ">
 							{project.website ? (
 								<Link
@@ -117,7 +117,7 @@ const ProjectCard = (props) => {
 							)}
 						</div>
 					</div>
-					<div className="text-white col-span-1 font-medium text-2xl flex content-center">
+					<div className="text-white col-span-1 font-medium flex content-center">
 						<img
 							src={project.images[0].path}
 							alt={project.images[0].caption}
