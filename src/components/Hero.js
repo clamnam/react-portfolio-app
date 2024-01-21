@@ -64,17 +64,17 @@ const Hero = () => {
 					</div>
 
 					<div className="col-span-2 text-white ">
-						<h2 className="my-2 text-4xl">
+						<h2 className="my-2 text-4xl mx-4 xs:mx-0">
 							My name is Jack, I am a Full Stack software developer.
 						</h2>
-						<h2 className="mb-2 text-lg">
+						<h2 className="mb-2 text-lg mx-4 xs:mx-0">
 							I have a wealth of experience in many different languages and
 							Softwares, Python and JavaScript being my particular favorites.
 						</h2>
-						<h2 className="mb-2 text-lg">
+						<h2 className="mb-2 text-lg mx-4 xs:mx-0">
 							My interests are long distance running and reading.
 						</h2>
-						<h2 className="mb-2 text-lg">
+						<h2 className="mb-2 text-lg mx-4 xs:mx-0">
 							A veteran of the service industry, I have tried and tested
 							interpersonal skills and a strong work ethic.{" "}
 						</h2>
@@ -85,24 +85,24 @@ const Hero = () => {
 			<div className="container-fluid text-white bg-stone-900 py-4">
 				<div className="lg:grid grid-cols-3 gap-4 container">
 					<div className="col-span-2  font-medium text-2xl">
-						<h1 className="text-5xl">Experience</h1>
+						<h1 className="text-5xl mx-4 xs:mx-0">Experience</h1>
 						<br />
-						<p className="mb-2 text-lg">
+						<p className="mb-2 text-lg mx-4 xs:mx-0">
 							I have taught myself Python and I think its
 							applicability/versatility of the language has meant I could expand
 							my horizons to a great extent.
 						</p>
-						<p className="mb-2 text-lg">
+						<p className="mb-2 text-lg mx-4 xs:mx-0">
 							I have successfully developed multiple React that have seamless
 							and beautiful form and functionality. I utilized React Hooks for
 							efficient state management. Using the Tailwind and Bootstrap
 							frameworks to ensure dynamic and responsive designs across various
 							breakpoints. Additionally, I implemented advanced techniques using
-							React Router, and context drilling .{" "}
-							<p className="mb-2 text-lg">
-								I have also worked in R, Java, and PHP maintaining a high level
+							React Router, and context drilling .
+							<br/>
+							I have also worked in R, Java, and PHP maintaining a high level
 								of profficiency.
-							</p>
+			
 						</p>
 					</div>
 
@@ -133,21 +133,21 @@ const Hero = () => {
 						</a>
 					</div>
 					<div className="col-span-2 text-white font-medium ">
-						<h1 className="text-4xl">Education and Certifications</h1>
+						<h1 className="text-4xl mx-4 xs:mx-0">Education and Certifications</h1>
 						<br />
-						<p className="mb-2 text-lg">
-							I am a third year student of Creative Computing where I gained a
+						<p className="mb-2 text-lg mx-4 xs:mx-0 ">
+							I am a third year student of Computing where I gained a
 							comprehensive knowledge of todays digital landscape. Developing
 							skills in Programming end to end solutions, Networking and
 							databases
 						</p>
-						<p className="mb-2 text-lg">
+						<p className="mb-2 text-lg mx-4 xs:mx-0">
 							Cisco Network Essentials completed with distinction on 06/12/2023
 						</p>
-						<p className="mb-2 text-lg">
+						<p className="mb-2 text-lg mx-4 xs:mx-0">
 							AWS Cloud Foundations completed with distinction 14/12/2023
 						</p>
-						<p className="mb-2">
+						<p className="mb-2 text-lg mx-4 xs:mx-0">
 							<a
 								className="underline "
 								href="https://www.linkedin.com/in/jackmob/"

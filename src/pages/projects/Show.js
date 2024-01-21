@@ -11,7 +11,7 @@ const Show = () => {
 
   const tags = project?.tags?.map((tag, i) => (
     <div key={i} className="btn btn-ghost border-solid hover:border-primary p-2 mr-1  cursor-pointer hover:btn-primary badge-outline ">
-      {tag}
+      # {tag}
     </div>
   ));
 
@@ -40,7 +40,7 @@ const Show = () => {
 
   return (
     <div className="container  ">
-      <div className="text-6xl flex justify-center font-normal py-16">
+      <div className="text-6xl flex justify-center font-normal py-16 mx-4 xs:mx-0">
         {project.title}
       </div>
 
@@ -51,7 +51,9 @@ const Show = () => {
             alt="visual representation of the course"
             className="w-full"
           />
+          <div className="mx-4 xs:mx-0">
           {tags}
+          </div>
         </div>
         <div>
           <div>
