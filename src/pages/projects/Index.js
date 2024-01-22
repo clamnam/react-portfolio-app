@@ -49,12 +49,13 @@ const Index = () => {
 		"All",
 		"JavaScript",
 		"React",
-		"HTML",
 		"Front-End",
-		"API",
-		"CSS",
-		"Tailwind",
+		"Back-End",
+		"Laravel",
+		"CSS-Frameworks",
 		"Python",
+		"Tkinter",
+		"PHP"
 	];
 
 	return (

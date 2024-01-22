@@ -33,7 +33,7 @@ const Hero = () => {
 	const PhoneViewTop = () => {
 		return (
 			<>
-				{" "}
+				
 				<div className="text-white col-span-1 font-medium text-2xl">
 					<img
 						className="w-full sm:hidden "
@@ -45,7 +45,7 @@ const Hero = () => {
 					<div className="text-6xl hidden sm:flex justify-center font-light py-16">
 						About Me
 					</div>
-				</div>{" "}
+				</div>
 			</>
 		);
 	};
@@ -76,7 +76,7 @@ const Hero = () => {
 						</h2>
 						<h2 className="mb-2 text-lg mx-4 xs:mx-0">
 							A veteran of the service industry, I have tried and tested
-							interpersonal skills and a strong work ethic.{" "}
+							interpersonal skills and a strong work ethic.
 						</h2>
 					</div>
 				</div>
@@ -147,13 +147,14 @@ const Hero = () => {
 						<p className="mb-2 text-lg mx-4 xs:mx-0">
 							AWS Cloud Foundations completed with distinction 14/12/2023
 						</p>
-						<p className="mb-2 ">
+						<p className="mb-2 text-lg mx-4 xs:mx-0">
 							<a
 								className="underline "
 								href="https://www.linkedin.com/in/jackmob/"
 							>
-								Check out
-							</a>{" "}
+								Check out 
+							</a>
+							&nbsp;
 							the various Linkedin Learning course certifications
 						</p>
 					</div>

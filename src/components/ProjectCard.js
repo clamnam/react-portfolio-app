@@ -81,7 +81,7 @@ const ProjectCard = (props) => {
 								className="justify-end p-0 text-4xl   "
 								to={`/projects/${project.slug}`}
 							>
-								{" "}
+								
 								{project.title}
 							</Link>
 						</h2>
