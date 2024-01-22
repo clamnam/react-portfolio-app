@@ -57,7 +57,7 @@ const Hero = () => {
 				<div className="lg:grid grid-cols-3 gap-4 container">
 					<div className="text-white col-span-1 font-medium text-2xl flex justify-center items-center">
 						<img
-							className="w-3/4  hidden sm:flex"
+							className="  hidden sm:flex"
 							src={require("../assets/images/profile.JPG")}
 							alt="github icon"
 						/>
@@ -84,7 +84,7 @@ const Hero = () => {
 
 			<div className="container-fluid text-white bg-stone-900 py-4">
 				<div className="lg:grid grid-cols-3 gap-4 container">
-					<div className="col-span-2  font-medium text-2xl">
+					<div className="col-span-2 font-medium text-2xl">
 						<h1 className="text-5xl mx-4 xs:mx-0">Experience</h1>
 						<br />
 						<p className="mb-2 text-lg mx-4 xs:mx-0">
@@ -108,7 +108,7 @@ const Hero = () => {
 
 					<div className="text-white col-span-1 font-medium text-2xl flex justify-center items-center">
 						<img
-							className="w-3/4  hidden sm:flex"
+							className="  hidden sm:flex"
 							src={require("../assets/images/Tab-Overload.jpg")}
 							alt="github icon"
 						/>
@@ -127,7 +127,7 @@ const Hero = () => {
 
 			<div className="container-fluid bg-orange-600 py-4">
 				<div className="lg:grid grid-cols-3 gap-4 container">
-					<div className=" col-span-1 flex justify-center">
+					<div className=" col-span-1 flex justify-center" >
 						<a href="https://www.linkedin.com/in/jackmob/">
 							<CanvasComponent size={canvasSize} className=" " />
 						</a>
@@ -147,7 +147,7 @@ const Hero = () => {
 						<p className="mb-2 text-lg mx-4 xs:mx-0">
 							AWS Cloud Foundations completed with distinction 14/12/2023
 						</p>
-						<p className="mb-2 text-lg mx-4 xs:mx-0">
+						<p className="mb-2 ">
 							<a
 								className="underline "
 								href="https://www.linkedin.com/in/jackmob/"

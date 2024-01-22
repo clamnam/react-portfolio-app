@@ -2,16 +2,14 @@ import { Link } from 'react-router-dom';
 import { useState } from 'react';
 import '../assets/app.css'
 
-
 const Navbar = () => {
   const [isNavHidden, setIsNavHidden] = useState(false);
-
 
   const NavReduce = () => {
     let lastScrollY = window.scrollY;
 
     window.addEventListener("scroll", () => {
-      if (lastScrollY < window.scrollY) {
+      if (lastScrollY < window.scrollY&&window.scrollY>20) {
         setIsNavHidden(true);
       } else {
         setIsNavHidden(false);

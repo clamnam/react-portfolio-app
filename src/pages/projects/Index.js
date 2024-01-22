@@ -22,7 +22,7 @@ const Index = () => {
 		};
 
 		fetchData();
-	}, []); 
+	}, []);
 	const filterProjects = (filter) => {
 		setSelectedOption(filter);
 
@@ -37,10 +37,13 @@ const Index = () => {
 	};
 
 	const projectList = filteredProjects.map((project, i) => (
-<ProjectCard key={i} project={project} cardKey={i} filterProjects={filterProjects} />
+		<ProjectCard
+			key={i}
+			project={project}
+			cardKey={i}
+			filterProjects={filterProjects}
+		/>
 	));
-
-
 
 	const tags = [
 		"All",
@@ -57,8 +60,8 @@ const Index = () => {
 	return (
 		<div className="justify-items-center">
 			<div className="sm:container">
-				<div className="text-6xl flex  justify-center font-light pt-16 pb-12 sm:pb-4">
-				&lt;/Projects&gt;
+				<div className=" text-6xl flex  justify-center font-light pt-16 pb-12 sm:pb-4" onClick={() => filterProjects('All')}>
+					Projects
 				</div>
 				<div className="relative text-left  justify-center hidden sm:flex">
 					<button
