@@ -1,5 +1,27 @@
 [
-	{
+		{
+		"slug": "PolitWiki",
+		"title": "Rust CMS",
+		"description": "WIP: Rust Application developed throught the AXUM framework. Extensible, flexible, lightweight CMS system. Designed to exhibit political information, but flexible for other applications.",
+		"images": [
+			{
+				"caption": "Gallery",
+				"path": "https://images.unsplash.com/photo-1582555172866-f73bb12a2ab3?q=80&w=2772&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+			}
+		],
+		"date": "2025",
+		"tags": [
+			"Rust",
+			"AXUM",
+			"HTML",
+			"Front-End",
+			"Api"
+		],
+		"website": "http://google.com",
+		"github": "https://github.com/clamnam/politiwiki.git",
+		"demo": true
+	},
+{
 		"slug": "Python-Pace-Converter",
 		"title": "Python Pace Converter",
 		"description": "I independently developed a standalone Python application that calculates alternative metrics for runners based on entered information about distance and time taken. I created a front-end GUI using the Tkinter binding for easy data entry and readout. The application is lightweight, user-friendly, and effectively handles/responds to errors",
@@ -18,78 +40,6 @@
 		"website": null,
 		"github": "https://github.com/clamnam/Pace-Converter",
 		"demo": false
-	},
-	{
-		"slug": "courses-app",
-		"title": "Courses App",
-		"description": "I have successfully developed multiple React single-page applications (SPAs) that seamlessly integrate with APIs, providing robust functionality for sorting, searching, and full CRUD operations. Utilizing React Hooks for efficient state management in functional components, I've ensured both standalone and joined data points are handled with precision. For dynamic and responsive designs across various breakpoints, I've employed CSS in conjunction with the Tailwind and Bootstrap frameworks. In addition, I've implemented advanced routing techniques using React Router, with a specific focus on nested routes and the implementation of route guards for authentication. To further specify, I recently worked on a courses application where Bootstrap was excluded. Despite the absence of Bootstrap, I maintained a high standard of design and responsiveness through the strategic use of CSS and the Tailwind framework.",
-		"images": [
-			{
-				"caption": "graduation",
-				"path": "https://images.unsplash.com/photo-1590012314607-cda9d9b699ae?q=80&w=2971&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-			}
-		],
-		"date": "2023",
-		"tags": [
-			"JavaScript",
-			"React",
-			"HTML",
-			"Front-End",
-			"API",
-			"CSS",
-			"Tailwind"
-		],
-		"website": "http://react-clamnam-courses-app.s3-website-eu-west-1.amazonaws.com/",
-		"github": "https://github.com/clamnam/giphy-app",
-		"demo": false
-	},
-	{
-		"slug": "countries-app",
-		"title": "Countries App",
-		"description": "I have successfully developed multiple React single-page applications (SPAs) that seamlessly integrate with APIs, providing robust functionality for sorting, searching, and full CRUD operations. Utilizing React Hooks for efficient state management in functional components, I've ensured both standalone and joined data points are handled with precision. For dynamic and responsive designs across various breakpoints, I've employed CSS in conjunction with the Tailwind and Bootstrap frameworks. In addition, I've implemented advanced routing techniques using React Router, with a specific focus on nested routes and the implementation of route guards for authentication. To further specify, I recently worked on a courses application where Bootstrap was excluded. Despite the absence of Bootstrap, I maintained a high standard of design and responsiveness through the strategic use of CSS and the Tailwind framework.",
-		"images": [
-			{
-				"caption": "flags",
-				"path": "https://images.unsplash.com/photo-1512076249812-fd58fb2c8748?q=80&w=2969&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-			}
-		],
-		"date": "2023",
-		"tags": [
-			"JavaScript",
-			"React",
-			"HTML",
-			"Front-End",
-			"API",
-			"CSS",
-			"Tailwind"
-		],
-		"website": "http://react-clamnam-countries-app.s3-website-eu-west-1.amazonaws.com",
-		"github": "https://github.com/clamnam/giphy-app",
-		"demo": false
-	},
-	{
-		"slug": "todo-app",
-		"title": "Todo App",
-		"description": "I have successfully developed a React ToDo application that offers a seamless user experience. The application includes features for creating, editing, and deleting tasks, as well as marking tasks as completed. Leveraging React Hooks, I've implemented efficient state management in functional components to ensure a responsive interface. The application integrates with an API to persist task data and provides users with the ability to organize tasks through sorting and searching functionalities. Advanced routing techniques using React Router have been employed to enhance the navigation experience within the ToDo application. Additionally, I've focused on creating a clean and intuitive design, incorporating CSS for styling while avoiding the use of Bootstrap for a customized appearance.",
-		"images": [
-			{
-				"caption": "notebook",
-				"path": "https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?q=80&w=2972&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-			}
-		],
-		"date": "2023",
-		"tags": [
-			"JavaScript",
-			"React",
-			"HTML",
-			"Front-End",
-			"CSS",
-			"API Integration",
-
-			"React Router"
-		],
-		"website": "http://react-clamnam-todo-app.s3-website-eu-west-1.amazonaws.com/",
-		"github": "https://github.com/clamnam/react-todoList"
 	},
 	{
 		"slug": "Laravel-Art",
@@ -117,30 +67,7 @@
 		"github": "https://github.com/clamnam/Art-Laravel-Project",
 		"demo": true
 	},
-	{
-		"slug": "giphy-app",
-		"title": "Giphy App",
-		"description": "I have successfully developed a React Giphy application that leverages the Giphy API to fetch and display GIFs based on user preferences. The application allows users to perform searches and limits the results to 5, 10, or 15 GIFs, providing a customizable viewing experience. Additionally, users can request a random GIF and explore trending GIFs to stay up-to-date with popular content. Through the integration of React Hooks, I've implemented efficient state management in functional components, ensuring a smooth and responsive interface. The use of React Router facilitates seamless navigation within the application. The design is enhanced with CSS for styling, tailored to create an engaging and visually appealing experience for users.",
-		"images": [
-			{
-				"caption": "Screenshot of the code",
-				"path": "https://images.pexels.com/photos/416160/pexels-photo-416160.jpeg"
-			}
-		],
-		"date": "2023",
-		"tags": [
-			"JavaScript",
-			"React",
-			"HTML",
-			"Front-End",
-			"API Integration",
 
-			"CSS"
-		],
-
-		"github": "https://github.com/clamnam/giphy-app",
-		"website": "http://react-clamnam-giphy-app.s3-website-eu-west-1.amazonaws.com"
-	},
 	{
 		"slug": "riot-api-project",
 		"title": "Riot API Project",

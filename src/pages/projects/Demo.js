@@ -28,6 +28,7 @@ const Demo = () => {
 
 	return( <Suspense>
         <App/>
+      {project}
     </Suspense>)
 };
 export default Demo;
